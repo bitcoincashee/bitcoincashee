@@ -1,2 +1,2 @@
-# bitcoincashee
+# BitcoinCash.ee
 BitcoinCash.ee
