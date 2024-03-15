@@ -22,21 +22,22 @@
 <div id="Home" class="container mt-4">
 	<div class="container">
 		<h1 style="font-family: ubuntu" class="font-weight-bold">
-			BitcoinCash.ee <span class="h6 text-muted font-weight-normal">Because 32 MB blocks are much cooler.</span>
+			BitcoinCash.ee <span class="h6 text-muted font-weight-normal">Because bigger blocks are much better.</span>
 		</h1>
 	</div>
 	<hr class="my-4">
 	<div class="card-deck m-2">
 		<div class="card bg-light border-dark m-2" style="min-width:250px;">
-
 			<div class="card-body">
-				<h5 class="card-title">Bitcoin Cash Price</h5>
-				<p id="privateKey" class="card-text text-justify lead">Loading...</p>
+				<h5 class="card-title">Current Price</h5>
+				<script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+				<coingecko-coin-ticker-widget  coin-id="bitcoin-cash" currency="usd" locale="en"></coingecko-coin-ticker-widget>
+
 			</div>
 		</div>
 		<div class="card bg-light border-dark m-2" style="min-width:250px;">
 			<div class="card-body">
-				<h5 class="card-title">Solo Chance</h5>
+				<h5 class="card-title">Solo Mining Chance Calculator</h5>
 				<p class="card-text text-justify">DONE! Solochance.com is a great service, but it does not support Bitcoin Cash. So we developed an alternative that supports, visit <a href="https://solochance.org" target="_blank" rel="noopener noreferrer">SoloChance.org</a>!
 				</p>
 			</div>
@@ -55,7 +56,6 @@
 		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 		crossorigin="anonymous"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<script src="js/price-fetcher.js"></script>
 </body>
 
 </html>
